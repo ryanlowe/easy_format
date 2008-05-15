@@ -1,1 +1,1 @@
-require 'simple_format'
+require 'easy_format'
