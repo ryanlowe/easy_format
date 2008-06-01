@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "easy_format"
-  s.version = "0.1.0"
-  s.date = "2008-05-26"
+  s.version = "0.1.1"
+  s.date = "2008-06-01"
   s.summary = "Formats and escapes database text for safe use in Ruby on Rails views"
   s.email = "rails@ryanlowe.ca"
   s.homepage = "http://github.com/ryanlowe/easy_format"
@@ -13,5 +13,4 @@ Gem::Specification.new do |s|
   s.test_files = ["test/easy_format_test.rb","test/test_helper.rb"]
   s.rdoc_options = ["--main", "README"]
   s.extra_rdoc_files = ["README","CHANGELOG"]
-  s.add_dependency("rails", ["> 2.0.0"])
 end
