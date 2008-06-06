@@ -23,7 +23,7 @@ class EasyFormatTest < Test::Unit::TestCase
     assert_equal "hello<br/>\n<br/>\n<br/>\nworld!", EasyFormat.format("hello\n\n\nworld!")
   end
   
-  def test_format_line_breaks
+  def test_format_remove_line_breaks
     assert_equal "", EasyFormat.format("\n", false)
     assert_equal "hello", EasyFormat.format("hello\n", false)
     assert_equal "world!", EasyFormat.format("\nworld!", false)
